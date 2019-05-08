@@ -7,3 +7,12 @@
 * {
     outline: 1px dotted;
 }
+
+video {
+    border: 1px solid blue;
+    object-fit: cover;
+/* Kludge */
+width: 100px;
+height: 100px;
+
+}
