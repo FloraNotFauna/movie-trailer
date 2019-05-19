@@ -4,18 +4,44 @@
 * Change Background color
 * Outline Elements */
 
-*{
-    margin: 0 auto;
+#pink {
+    font-family: 'Rye', cursive;
+    color: lightpink;
+    font-size: 40px;
+    position: absolute;
+    top: 3px;
+    }
+#black {
+    font-family: 'Rye', cursive;
+    color: black;
+    font-size: 40px;
+    position: absolute;
+        }
+nav {
+    background-image: url(/assets/085bd2af45807085eac4bdf577e58d5f.jpg);
+    width: 100vw;
+    height: 100px;
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    
+}
+
+body {
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(351deg, rgba(2,0,36,1) 22%, rgba(9,68,121,1) 54%, rgba(0,212,255,1) 100%);
 }
 
 video {
-    border: 1px solid blue;
     object-fit: cover;
 /* Kludge */
 width: 800px;
 height: 400px;
-display: flex;
+padding: 50px;
 }
