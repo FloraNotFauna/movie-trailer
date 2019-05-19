@@ -5,20 +5,24 @@
 * Outline Elements */
 
 #pink {
-    font-family: 'Rye', cursive;
+    font-family: 'Alfa Slab One', cursive;
     color: lightpink;
-    font-size: 40px;
+    font-size: 45px;
     position: absolute;
-    top: 3px;
+    top: 5px;
+    letter-spacing: 4px;
     }
 #black {
-    font-family: 'Rye', cursive;
+    font-family: 'Alfa Slab One', cursive;
     color: black;
-    font-size: 40px;
+    font-size: 45px;
     position: absolute;
+    letter-spacing: 4px;
         }
 nav {
-    background-image: url(/assets/085bd2af45807085eac4bdf577e58d5f.jpg);
+    background-image: url(/assets/GOVERNMENT_ANTIPSYCHEDELIC_WIDE.jpg);
+    background-size: cover;
+    border: 15px double lightpink;
     width: 100vw;
     height: 100px;
     display: flex;
@@ -34,8 +38,23 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgb(2,0,36);
-    background: linear-gradient(351deg, rgba(2,0,36,1) 22%, rgba(9,68,121,1) 54%, rgba(0,212,255,1) 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 22%, palevioletred 54%, aliceblue 100%);
+    position: relative;
+
+}
+#tv {
+    width: 22%;
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    transform: rotate(45deg);
+
+}
+#cartoonalice {
+    position: absolute;
+    right: 2%;
+    width: 30%;
 }
 
 video {
