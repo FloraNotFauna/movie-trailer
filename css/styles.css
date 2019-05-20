@@ -20,7 +20,7 @@
     letter-spacing: 4px;
         }
 nav {
-    background: url("movie-trailer/assets/GOVERNMENT_ANTIPSYCHEDELIC_WIDE.jpg");
+    background: url("/assets/GOVERNMENT_ANTIPSYCHEDELIC_WIDE.jpg");
     background-size: cover;
     border: 15px double lightpink;
     width: 100vw;
