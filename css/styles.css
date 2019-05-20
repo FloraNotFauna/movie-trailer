@@ -20,7 +20,7 @@
     letter-spacing: 4px;
         }
 nav {
-    background-image: url(/assets/GOVERNMENT_ANTIPSYCHEDELIC_WIDE.jpg);
+    background-image: url(assets/GOVERNMENT_ANTIPSYCHEDELIC_WIDE.jpg);
     background-size: cover;
     border: 15px double lightpink;
     width: 100vw;
@@ -38,7 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url(/assets/gradient.png);
+    background: url(assets/gradient.png);
     background-size: cover;
     position: relative;
 
